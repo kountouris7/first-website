@@ -9,4 +9,4 @@ $router = new Router;
 
 require 'routes.php';
 
-return $router->direct('');
+require $router->direct('about');
