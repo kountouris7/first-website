@@ -9,4 +9,4 @@ $router = new Router;
 
 require 'routes.php';
 
-require $router->direct('about');
+require $router->direct(str_replace('/','', $_SERVER['REQUEST_URI']));
