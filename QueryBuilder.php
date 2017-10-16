@@ -7,7 +7,7 @@ class QueryBuilder
 	public function __construct($pdo)
 	{
 
-		$this->pdo = $pdo;
+		$this->pdo=$pdo;
 
 
 	}
